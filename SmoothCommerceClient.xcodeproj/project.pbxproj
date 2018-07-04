@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0458800020E897C200E53A47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04587FFF20E897C200E53A47 /* AppDelegate.swift */; };
-		0458800220E897C200E53A47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458800120E897C200E53A47 /* ViewController.swift */; };
 		0458800520E897C200E53A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458800320E897C200E53A47 /* Main.storyboard */; };
 		0458800820E897C200E53A47 /* SmoothCommerceClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0458800620E897C200E53A47 /* SmoothCommerceClient.xcdatamodeld */; };
 		0458800A20E897C200E53A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0458800920E897C200E53A47 /* Assets.xcassets */; };
 		0458800D20E897C200E53A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458800B20E897C200E53A47 /* LaunchScreen.storyboard */; };
 		0458801820E897C200E53A47 /* SmoothCommerceClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458801720E897C200E53A47 /* SmoothCommerceClientTests.swift */; };
 		0458802320E897C200E53A47 /* SmoothCommerceClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458802220E897C200E53A47 /* SmoothCommerceClientUITests.swift */; };
+		0458804520E8B4A100E53A47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458804420E8B4A100E53A47 /* ViewController.swift */; };
+		45DD676F1D20B8AF2BCE5E60 /* Pods_SmoothCommerceClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7213E088A565341730036373 /* Pods_SmoothCommerceClientUITests.framework */; };
+		5F344386A2B7C4A4CC3E0077 /* Pods_SmoothCommerceClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171246C0DBE2E1FCDC4ABA00 /* Pods_SmoothCommerceClientTests.framework */; };
+		D548FAB27296872323099686 /* Pods_SmoothCommerceClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14718E90AF5B0E5200B25FE /* Pods_SmoothCommerceClient.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		04587FFC20E897C200E53A47 /* SmoothCommerceClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothCommerceClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04587FFF20E897C200E53A47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0458800120E897C200E53A47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0458800420E897C200E53A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0458800720E897C200E53A47 /* SmoothCommerceClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmoothCommerceClient.xcdatamodel; sourceTree = "<group>"; };
 		0458800920E897C200E53A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,16 @@
 		0458801E20E897C200E53A47 /* SmoothCommerceClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothCommerceClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0458802220E897C200E53A47 /* SmoothCommerceClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothCommerceClientUITests.swift; sourceTree = "<group>"; };
 		0458802420E897C200E53A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0458804420E8B4A100E53A47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		079670B5F88950EEC9C74424 /* Pods-SmoothCommerceClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmoothCommerceClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmoothCommerceClient/Pods-SmoothCommerceClient.debug.xcconfig"; sourceTree = "<group>"; };
+		171246C0DBE2E1FCDC4ABA00 /* Pods_SmoothCommerceClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmoothCommerceClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7213E088A565341730036373 /* Pods_SmoothCommerceClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmoothCommerceClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942D2042EDB8B811F2358555 /* Pods-SmoothCommerceClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmoothCommerceClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmoothCommerceClientTests/Pods-SmoothCommerceClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7ED8818410F15BD8F8CCF09 /* Pods-SmoothCommerceClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmoothCommerceClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmoothCommerceClientUITests/Pods-SmoothCommerceClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B03280AFB0A7B9B4308A07A6 /* Pods-SmoothCommerceClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmoothCommerceClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmoothCommerceClient/Pods-SmoothCommerceClient.release.xcconfig"; sourceTree = "<group>"; };
+		B95D115F86C076D2B29BD602 /* Pods-SmoothCommerceClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmoothCommerceClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmoothCommerceClientTests/Pods-SmoothCommerceClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C14718E90AF5B0E5200B25FE /* Pods_SmoothCommerceClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmoothCommerceClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3CF8B9356EF506D00B0F9F /* Pods-SmoothCommerceClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmoothCommerceClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmoothCommerceClientUITests/Pods-SmoothCommerceClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D548FAB27296872323099686 /* Pods_SmoothCommerceClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F344386A2B7C4A4CC3E0077 /* Pods_SmoothCommerceClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DD676F1D20B8AF2BCE5E60 /* Pods_SmoothCommerceClientUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0458801620E897C200E53A47 /* SmoothCommerceClientTests */,
 				0458802120E897C200E53A47 /* SmoothCommerceClientUITests */,
 				04587FFD20E897C200E53A47 /* Products */,
+				1BCD99DEB91A38F478BF1615 /* Pods */,
+				93429FF8A7DF24E262003C4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				04587FFF20E897C200E53A47 /* AppDelegate.swift */,
-				0458800120E897C200E53A47 /* ViewController.swift */,
 				0458800320E897C200E53A47 /* Main.storyboard */,
 				0458800920E897C200E53A47 /* Assets.xcassets */,
 				0458800B20E897C200E53A47 /* LaunchScreen.storyboard */,
 				0458800E20E897C200E53A47 /* Info.plist */,
 				0458800620E897C200E53A47 /* SmoothCommerceClient.xcdatamodeld */,
+				0458804420E8B4A100E53A47 /* ViewController.swift */,
 			);
 			path = SmoothCommerceClient;
 			sourceTree = "<group>";
@@ -128,6 +145,29 @@
 			path = SmoothCommerceClientUITests;
 			sourceTree = "<group>";
 		};
+		1BCD99DEB91A38F478BF1615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				079670B5F88950EEC9C74424 /* Pods-SmoothCommerceClient.debug.xcconfig */,
+				B03280AFB0A7B9B4308A07A6 /* Pods-SmoothCommerceClient.release.xcconfig */,
+				B95D115F86C076D2B29BD602 /* Pods-SmoothCommerceClientTests.debug.xcconfig */,
+				942D2042EDB8B811F2358555 /* Pods-SmoothCommerceClientTests.release.xcconfig */,
+				CD3CF8B9356EF506D00B0F9F /* Pods-SmoothCommerceClientUITests.debug.xcconfig */,
+				A7ED8818410F15BD8F8CCF09 /* Pods-SmoothCommerceClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93429FF8A7DF24E262003C4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14718E90AF5B0E5200B25FE /* Pods_SmoothCommerceClient.framework */,
+				171246C0DBE2E1FCDC4ABA00 /* Pods_SmoothCommerceClientTests.framework */,
+				7213E088A565341730036373 /* Pods_SmoothCommerceClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0458802720E897C200E53A47 /* Build configuration list for PBXNativeTarget "SmoothCommerceClient" */;
 			buildPhases = (
+				A69F0601819B28F3179B9A08 /* [CP] Check Pods Manifest.lock */,
 				04587FF820E897C200E53A47 /* Sources */,
 				04587FF920E897C200E53A47 /* Frameworks */,
 				04587FFA20E897C200E53A47 /* Resources */,
+				CD90D6767F1FFBA03AB3C327 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0458802A20E897C200E53A47 /* Build configuration list for PBXNativeTarget "SmoothCommerceClientTests" */;
 			buildPhases = (
+				F4C4259C36342F41FC0F5A4C /* [CP] Check Pods Manifest.lock */,
 				0458800F20E897C200E53A47 /* Sources */,
 				0458801020E897C200E53A47 /* Frameworks */,
 				0458801120E897C200E53A47 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0458802D20E897C200E53A47 /* Build configuration list for PBXNativeTarget "SmoothCommerceClientUITests" */;
 			buildPhases = (
+				72014E231E5294FB14B0292A /* [CP] Check Pods Manifest.lock */,
 				0458801A20E897C200E53A47 /* Sources */,
 				0458801B20E897C200E53A47 /* Frameworks */,
 				0458801C20E897C200E53A47 /* Resources */,
@@ -257,12 +301,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72014E231E5294FB14B0292A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmoothCommerceClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A69F0601819B28F3179B9A08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmoothCommerceClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD90D6767F1FFBA03AB3C327 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmoothCommerceClient/Pods-SmoothCommerceClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SmoothCommerceFramework/SmoothCommerceFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SmoothCommerceFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmoothCommerceClient/Pods-SmoothCommerceClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C4259C36342F41FC0F5A4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmoothCommerceClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04587FF820E897C200E53A47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0458800220E897C200E53A47 /* ViewController.swift in Sources */,
+				0458804520E8B4A100E53A47 /* ViewController.swift in Sources */,
 				0458800020E897C200E53A47 /* AppDelegate.swift in Sources */,
 				0458800820E897C200E53A47 /* SmoothCommerceClient.xcdatamodeld in Sources */,
 			);
@@ -428,9 +555,14 @@
 		};
 		0458802820E897C200E53A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079670B5F88950EEC9C74424 /* Pods-SmoothCommerceClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SmoothCommerceClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteLabel.SmoothCommerceClient;
@@ -442,9 +574,14 @@
 		};
 		0458802920E897C200E53A47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03280AFB0A7B9B4308A07A6 /* Pods-SmoothCommerceClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SmoothCommerceClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteLabel.SmoothCommerceClient;
@@ -456,6 +593,7 @@
 		};
 		0458802B20E897C200E53A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95D115F86C076D2B29BD602 /* Pods-SmoothCommerceClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +610,7 @@
 		};
 		0458802C20E897C200E53A47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942D2042EDB8B811F2358555 /* Pods-SmoothCommerceClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +627,7 @@
 		};
 		0458802E20E897C200E53A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3CF8B9356EF506D00B0F9F /* Pods-SmoothCommerceClientUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +643,7 @@
 		};
 		0458802F20E897C200E53A47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7ED8818410F15BD8F8CCF09 /* Pods-SmoothCommerceClientUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
